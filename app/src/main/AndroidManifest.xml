@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="learnmore.projet.learnmore">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplachScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Courses" />
+        <activity android:name=".Idea" />
+        <activity android:name=".Papers" />
+        <activity android:name=".Contact" />
+        <activity android:name=".Discussion" />
+        <activity android:name=".Donnation" />
+        <activity android:name=".HomeDashboard" />
+        <activity android:name=".CourseActivity" />
+        <activity android:name=".AcountActivities.LoginActivity" />
+        <activity android:name=".AcountActivities.SignupActivity" />
+        <activity android:name=".AcountActivities.ResetPasswordActivity" />
+        <activity android:name=".TestActivity" />
+        <activity android:name=".ExamActivity" />
+        <activity android:name=".VideoActivity" />
+        <activity android:name=".PdfActivity"></activity>
+    </application>
+
+</manifest>

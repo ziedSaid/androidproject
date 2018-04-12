@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <RadioGroup
+        android:layout_marginTop="15dp"
+        android:id="@+id/radG1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/question">
+
+        <RadioButton
+            android:id="@+id/rad0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Radio Button"/>
+
+        <RadioButton
+            android:id="@+id/rad1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Radio Button"/>
+
+        <RadioButton
+            android:id="@+id/rad2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Radio Button"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_marginTop="150dp"
+        android:id="@+id/countdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="00:00"
+        android:textColor="@color/black"
+        android:textSize="50sp"/>
+
+</LinearLayout>

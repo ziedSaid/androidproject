@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="learnmore.projet.learnmore.SplachScreen"
+    android:orientation="vertical"
+    android:background="@drawable/splachbg">
+    
+    <LinearLayout
+        android:id="@+id/splachll"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical">
+        <TextView
+            android:textColor="@color/lightdarkerorange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/join_our"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp"
+            android:textSize="30sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_26_480"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:textColor="@color/lightorange"/>
+        <TextView
+            android:textColor="@color/lightdarkerorange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student And Learn More"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:textSize="30sp"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/splachll2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <Button
+            android:id="@+id/splachb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign In NOW"
+            android:layout_gravity="center"
+            android:background="@drawable/buttonstyle"
+            android:clickable="true"
+            android:onClick="onClick"
+            />
+    </LinearLayout>
+
+</LinearLayout>

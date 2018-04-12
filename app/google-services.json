@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "60042330242",
+    "firebase_url": "https://learnmore-d8a01.firebaseio.com",
+    "project_id": "learnmore-d8a01",
+    "storage_bucket": "learnmore-d8a01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60042330242:android:414a6c3db9410a9e",
+        "android_client_info": {
+          "package_name": "learnmore.projet.learnmore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "60042330242-kbcab9l7cdqu186hpp9v4d6efs6s5afo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnLWZvFmKUi3mhFJ-E6WIF0NJxxD5wTXE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
